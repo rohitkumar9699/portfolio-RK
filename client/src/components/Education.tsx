@@ -22,7 +22,8 @@ const educationData = [
     period: "2021",
     description: "Received the Shiv Nadar Foundation (SNF) Scholarship from Class 6 to 12. Excelled in academics while actively participating in extracurricular and competitive activities.",
     highlights: [
-      { icon: <Medal className="text-indigo-600 dark:text-indigo-400" size={16} />, text: "SNF Scholarship" }
+      { icon: <Star className="text-amber-500" size={16} />, text: "Percetage 95.6%" },
+      { icon: <Medal className="text-indigo-600 dark:text-indigo-400" size={16} />, text: "SNF Scholarship 100%" }
     ],
     icon: <School className="text-white" size={20} />
   },
@@ -32,7 +33,9 @@ const educationData = [
     institution: "Vidyagyan School, UP",
     period: "2019",
     description: "Completed foundational education with outstanding academic performance. Participated in various extracurricular activities and competitions.",
-    highlights: [],
+    highlights: [
+      { icon: <Star className="text-amber-500" size={16} />, text: "Percentage 92.8%" }
+    ],
     icon: <BookOpen className="text-white" size={20} />
   }
 ];
