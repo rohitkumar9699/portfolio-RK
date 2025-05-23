@@ -11,6 +11,7 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ChevronUp } from "lucide-react";
+import Experience from "@/components/Experience";
 
 const Home = () => {
   const backToTopBtnRef = useRef<HTMLButtonElement>(null);
@@ -49,6 +50,7 @@ const Home = () => {
       >
         <Hero />
         <About />
+        <Experience />
         <Projects />
         <Education />
         <Achievements />
