@@ -53,7 +53,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Current Address</p>
-                      <p className="text-lg font-medium">SRM University AP, Andhra Pradesh, India</p>
+                      <p className="text-lg font-medium">Sector 27, Noida , Uttar Pradesh, India</p>
                     </div>
                   </div>
                   

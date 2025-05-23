@@ -34,7 +34,7 @@ const About = () => {
               </Card>
               <Card className="bg-slate-50 dark:bg-slate-800 p-3 text-center">
                 <FaCode className="text-2xl text-indigo-500 mb-2 mx-auto" />
-                <p className="text-sm font-medium">Full-Stack Developer</p>
+                <p className="text-sm font-medium">Software Developer</p>
               </Card>
               <Card className="bg-slate-50 dark:bg-slate-800 p-3 text-center">
                 <FaChess className="text-2xl text-slate-700 dark:text-slate-300 mb-2 mx-auto" />
@@ -56,7 +56,8 @@ const About = () => {
           >
             <div className="prose prose-slate dark:prose-invert max-w-none">
               <p className="text-lg">
-                I am a driven software engineering student with hands-on experience in research, developing a strong foundation in both theoretical and practical aspects of technology. My work includes projects ranging from machine learning-powered systems to full-stack applications, showcasing proficiency in a wide array of programming languages and technologies.
+                Software Developer with strong backend development skills and a solid foundation in practical and theoretical aspects of technology. Experienced in building full-stack and machine learning applications, with proficiency in a wide range of programming languages and tools.
+                {/* I am a driven software engineering student with hands-on experience in research, developing a strong foundation in both theoretical and practical aspects of technology. My work includes projects ranging from machine learning-powered systems to full-stack applications, showcasing proficiency in a wide array of programming languages and technologies. */}
               </p>
               <p>
                 With a passion for problem-solving and innovation, I actively seek to contribute to projects that challenge my skills. I am dedicated to continuous learning and growth in the ever-evolving field of technology.
@@ -76,8 +77,8 @@ const About = () => {
                   </div>
                   <div>
                     <p className="font-semibold">SRM University AP</p>
-                    <p className="text-sm text-slate-600 dark:text-slate-400">B.Tech in CSE (2021-Present)</p>
-                    <p className="text-sm">CGPA: 8.20/10</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-400">B.Tech in CSE (2021-2025)</p>
+                    <p className="text-sm">CGPA: 8.24/10</p>
                   </div>
                 </div>
               </Card>
@@ -87,16 +88,16 @@ const About = () => {
                 <ul className="space-y-2">
                   <li className="flex items-center">
                     <span className="w-2 h-2 rounded-full bg-indigo-600 mr-2"></span>
-                    Full-Stack Development
+                    Backend Development
                   </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 rounded-full bg-indigo-600 mr-2"></span>
                     Data Structures & Algorithms
                   </li>
-                  <li className="flex items-center">
+                  {/* <li className="flex items-center">
                     <span className="w-2 h-2 rounded-full bg-indigo-600 mr-2"></span>
-                    Machine Learning
-                  </li>
+                    Problem Solving
+                  </li> */}
                   <li className="flex items-center">
                     <span className="w-2 h-2 rounded-full bg-indigo-600 mr-2"></span>
                     Problem Solving

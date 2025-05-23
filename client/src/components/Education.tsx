@@ -10,7 +10,7 @@ const educationData = [
     period: "2021 - Present",
     description: "Received a 100% scholarship covering tuition and accommodation. Actively engaged in coding contests, research internships, and project-based learning.",
     highlights: [
-      { icon: <Star className="text-amber-500" size={16} />, text: "CGPA: 8.20/10" },
+      { icon: <Star className="text-amber-500" size={16} />, text: "CGPA: 8.24/10" },
       { icon: <Medal className="text-indigo-600 dark:text-indigo-400" size={16} />, text: "100% Scholarship" }
     ],
     icon: <BuildingIcon className="text-white" size={20} />

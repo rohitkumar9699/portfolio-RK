@@ -26,17 +26,17 @@ interface SkillBarProps {
 
 const programmingSkills = [
   { label: "C++ (Primary)", percentage: 90 },
-  { label: "Java", percentage: 85 },
-  { label: "Python", percentage: 80 },
+  { label: "Java", percentage: 80 },
+  { label: "Python", percentage: 85 },
   { label: "C", percentage: 75 },
   { label: "SQL", percentage: 70 }
 ];
 
 const frontendSkills = [
   { label: "HTML", percentage: 90 },
-  { label: "CSS", percentage: 85 },
-  { label: "JavaScript", percentage: 85 },
-  { label: "ReactJS", percentage: 75 }
+  { label: "CSS", percentage: 80 },
+  { label: "JavaScript", percentage: 80 },
+  { label: "ReactJS", percentage: 85 }
 ];
 
 const SkillBar = ({ label, percentage }: SkillBarProps) => {
@@ -117,6 +117,14 @@ const Skills = () => {
               </Card>
               <Card className="bg-slate-100 dark:bg-slate-800 p-3">
                 <CardContent className="p-0 flex items-center">
+                  <span className="shrink-0 w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center mr-3">
+                    <FaDatabase className="text-blue-600 dark:text-blue-400" />
+                  </span>
+                  <span>PostgreSQL</span>
+                </CardContent>
+              </Card>
+              <Card className="bg-slate-100 dark:bg-slate-800 p-3">
+                <CardContent className="p-0 flex items-center">
                   <span className="shrink-0 w-8 h-8 rounded-full bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center mr-3">
                     <FaFlask className="text-cyan-600 dark:text-cyan-400" />
                   </span>
@@ -129,6 +137,14 @@ const Skills = () => {
                     <FaNodeJs className="text-emerald-600 dark:text-emerald-400" />
                   </span>
                   <span>Node.js</span>
+                </CardContent>
+              </Card>
+              <Card className="bg-slate-100 dark:bg-slate-800 p-3">
+                <CardContent className="p-0 flex items-center">
+                  <span className="shrink-0 w-8 h-8 rounded-full bg-cyan-100 dark:bg-cyan-900/30 flex items-center justify-center mr-3">
+                    <FaFlask className="text-cyan-600 dark:text-cyan-400" />
+                  </span>
+                  <span>Django</span>
                 </CardContent>
               </Card>
             </div>

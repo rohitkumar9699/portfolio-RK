@@ -27,7 +27,7 @@ const Hero = () => {
             </h1>
             
             <h2 className="text-xl sm:text-2xl text-slate-600 dark:text-slate-400 font-medium">
-              Final-Year CSE Student | Problem-solving | Software Developer | Full-Stack Developer
+              Software Developer | Full-Stack & Backend Developer | Problem Solver | Intern @ Prune
             </h2>
             
             <p className="text-slate-700 dark:text-slate-300 max-w-lg">
